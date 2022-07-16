@@ -1,0 +1,8 @@
+#Write a program to tell the max number in an array and min number in an array
+def miniMaxSum(array):
+    # Write your code here
+    print(sum(array)-max(array),end=" ")
+    return sum(array)-min(array)
+#n=int(input())
+array=list(map(int, input().rstrip().split()))
+print(miniMaxSum(array))
