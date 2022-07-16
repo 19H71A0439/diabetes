@@ -1,0 +1,7 @@
+#1 problem
+#write a program which will find all the divisible numbers by 7 and not the multiples of 15 between 100 to 201
+l=[]
+for i in range(100,201):
+    if i%7==0 and i%5!=0:
+        l.append(i)
+print(l)
