@@ -110,3 +110,7 @@ for row in range(rowNum):
         multilist[row][col]= row*col
 
 print(multilist)
+#write a program to sort the given strings
+l=[i for i in input().split(",")]
+l.sort()
+print(",".join(l))
